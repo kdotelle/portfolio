@@ -15,11 +15,12 @@ export const projects = [
     link: "https://kdotelle.github.io/ReactCalculator/",
   },
   {
-    title: "Pomodoro Clock",
+    title: "Color Picker",
     subtitle: "React",
-    description: "Pomodoro timer built using React.",
-    image: "./pomodoro.png",
-    link: "https://kdotelle.github.io/pomodoro/",
+    description:
+      "A responsive app that allows users to view and create custom color palettes.",
+    image: "./color-picker.png",
+    link: "https://kdotelle.github.io/react-color-app/",
   },
   {
     title: "Family Reunion",

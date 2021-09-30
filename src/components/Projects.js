@@ -17,12 +17,12 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4"
+              className="sm:w-1/2 w-100 h-100 p-4 object-contain overflow-auto"
             >
-              <div className="flex relative">
+              <div className="flex justify-evenly relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-contain object-center"
+                  className="absolute inset-0 w-full h-full object-contain"
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
