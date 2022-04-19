@@ -46,6 +46,7 @@ export default function Contact() {
               <a
                 className="text-indigo-400 leading-relaxed"
                 href="www.linkedin.com/in/kristenlloyd/"
+                target="_blank"
               >
                 www.linkedin.com/in/kristenlloyd/
               </a>
